@@ -1,0 +1,242 @@
+[
+  {
+    "id": "SU-001",
+    "name": "Drinking water",
+    "category": "Water & Food",
+    "quantity": 12,
+    "unit": "litres",
+    "essential": true
+  },
+  {
+    "id": "SU-002",
+    "name": "Canned food",
+    "category": "Water & Food",
+    "quantity": 10,
+    "unit": "cans",
+    "essential": true
+  },
+  {
+    "id": "SU-003",
+    "name": "Dry snacks and biscuits",
+    "category": "Water & Food",
+    "quantity": 6,
+    "unit": "packs",
+    "essential": false
+  },
+  {
+    "id": "SU-004",
+    "name": "Powdered milk or baby food",
+    "category": "Water & Food",
+    "quantity": 2,
+    "unit": "packs",
+    "essential": false
+  },
+  {
+    "id": "SU-005",
+    "name": "Water purification tablets",
+    "category": "Water & Food",
+    "quantity": 1,
+    "unit": "pack",
+    "essential": true
+  },
+  {
+    "id": "SU-006",
+    "name": "Manual can opener",
+    "category": "Water & Food",
+    "quantity": 1,
+    "unit": "item",
+    "essential": false
+  },
+  {
+    "id": "SU-007",
+    "name": "First aid kit",
+    "category": "Health",
+    "quantity": 1,
+    "unit": "kit",
+    "essential": true
+  },
+  {
+    "id": "SU-008",
+    "name": "Prescription medicines (7 days)",
+    "category": "Health",
+    "quantity": 1,
+    "unit": "set",
+    "essential": true
+  },
+  {
+    "id": "SU-009",
+    "name": "Pain relief tablets",
+    "category": "Health",
+    "quantity": 1,
+    "unit": "pack",
+    "essential": false
+  },
+  {
+    "id": "SU-010",
+    "name": "Bandages and dressings",
+    "category": "Health",
+    "quantity": 1,
+    "unit": "pack",
+    "essential": true
+  },
+  {
+    "id": "SU-011",
+    "name": "Hand sanitiser",
+    "category": "Health",
+    "quantity": 2,
+    "unit": "bottles",
+    "essential": false
+  },
+  {
+    "id": "SU-012",
+    "name": "Face masks",
+    "category": "Health",
+    "quantity": 10,
+    "unit": "masks",
+    "essential": false
+  },
+  {
+    "id": "SU-013",
+    "name": "Torch",
+    "category": "Tools",
+    "quantity": 2,
+    "unit": "items",
+    "essential": true
+  },
+  {
+    "id": "SU-014",
+    "name": "Spare batteries",
+    "category": "Tools",
+    "quantity": 8,
+    "unit": "items",
+    "essential": true
+  },
+  {
+    "id": "SU-015",
+    "name": "Power bank",
+    "category": "Tools",
+    "quantity": 1,
+    "unit": "item",
+    "essential": true
+  },
+  {
+    "id": "SU-016",
+    "name": "Battery or hand-crank radio",
+    "category": "Tools",
+    "quantity": 1,
+    "unit": "item",
+    "essential": true
+  },
+  {
+    "id": "SU-017",
+    "name": "Whistle",
+    "category": "Tools",
+    "quantity": 1,
+    "unit": "item",
+    "essential": false
+  },
+  {
+    "id": "SU-018",
+    "name": "Multi-tool",
+    "category": "Tools",
+    "quantity": 1,
+    "unit": "item",
+    "essential": false
+  },
+  {
+    "id": "SU-019",
+    "name": "Duct tape",
+    "category": "Tools",
+    "quantity": 1,
+    "unit": "roll",
+    "essential": false
+  },
+  {
+    "id": "SU-020",
+    "name": "Matches in waterproof box",
+    "category": "Tools",
+    "quantity": 1,
+    "unit": "box",
+    "essential": false
+  },
+  {
+    "id": "SU-021",
+    "name": "ID copies in waterproof bag",
+    "category": "Documents",
+    "quantity": 1,
+    "unit": "set",
+    "essential": true
+  },
+  {
+    "id": "SU-022",
+    "name": "Printed emergency contact list",
+    "category": "Documents",
+    "quantity": 1,
+    "unit": "sheet",
+    "essential": true
+  },
+  {
+    "id": "SU-023",
+    "name": "Cash in small notes",
+    "category": "Documents",
+    "quantity": 1,
+    "unit": "set",
+    "essential": true
+  },
+  {
+    "id": "SU-024",
+    "name": "Copies of insurance and property papers",
+    "category": "Documents",
+    "quantity": 1,
+    "unit": "set",
+    "essential": false
+  },
+  {
+    "id": "SU-025",
+    "name": "Local paper map",
+    "category": "Documents",
+    "quantity": 1,
+    "unit": "item",
+    "essential": false
+  },
+  {
+    "id": "SU-026",
+    "name": "Blankets",
+    "category": "Comfort",
+    "quantity": 4,
+    "unit": "items",
+    "essential": true
+  },
+  {
+    "id": "SU-027",
+    "name": "Spare clothes",
+    "category": "Comfort",
+    "quantity": 1,
+    "unit": "set per person",
+    "essential": false
+  },
+  {
+    "id": "SU-028",
+    "name": "Sleeping mats",
+    "category": "Comfort",
+    "quantity": 4,
+    "unit": "items",
+    "essential": false
+  },
+  {
+    "id": "SU-029",
+    "name": "Toiletries",
+    "category": "Comfort",
+    "quantity": 1,
+    "unit": "kit",
+    "essential": false
+  },
+  {
+    "id": "SU-030",
+    "name": "Pet food and leash",
+    "category": "Comfort",
+    "quantity": 1,
+    "unit": "set",
+    "essential": false
+  }
+]

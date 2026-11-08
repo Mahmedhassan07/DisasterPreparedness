@@ -1,0 +1,152 @@
+[
+  {
+    "id": "CK-001",
+    "text": "Agree on a family meeting point near home",
+    "phase": "Before",
+    "priority": "high"
+  },
+  {
+    "id": "CK-002",
+    "text": "Agree on a second meeting point outside your area",
+    "phase": "Before",
+    "priority": "medium"
+  },
+  {
+    "id": "CK-003",
+    "text": "Save emergency numbers on every phone",
+    "phase": "Before",
+    "priority": "high"
+  },
+  {
+    "id": "CK-004",
+    "text": "Print the emergency contact list",
+    "phase": "Before",
+    "priority": "high"
+  },
+  {
+    "id": "CK-005",
+    "text": "Pack a go-bag for each person",
+    "phase": "Before",
+    "priority": "high"
+  },
+  {
+    "id": "CK-006",
+    "text": "Store 3 days of drinking water",
+    "phase": "Before",
+    "priority": "high"
+  },
+  {
+    "id": "CK-007",
+    "text": "Find your nearest shelter and two routes to it",
+    "phase": "Before",
+    "priority": "high"
+  },
+  {
+    "id": "CK-008",
+    "text": "Learn how to switch off gas, water and power",
+    "phase": "Before",
+    "priority": "medium"
+  },
+  {
+    "id": "CK-009",
+    "text": "Check on elderly or disabled neighbours",
+    "phase": "Before",
+    "priority": "medium"
+  },
+  {
+    "id": "CK-010",
+    "text": "Make a plan for pets",
+    "phase": "Before",
+    "priority": "low"
+  },
+  {
+    "id": "CK-011",
+    "text": "Check the latest verified alert",
+    "phase": "During",
+    "priority": "high"
+  },
+  {
+    "id": "CK-012",
+    "text": "Follow the action in the most serious alert first",
+    "phase": "During",
+    "priority": "high"
+  },
+  {
+    "id": "CK-013",
+    "text": "Move to higher ground or a safe room if told to",
+    "phase": "During",
+    "priority": "high"
+  },
+  {
+    "id": "CK-014",
+    "text": "Stay away from floodwater, wires and damaged buildings",
+    "phase": "During",
+    "priority": "high"
+  },
+  {
+    "id": "CK-015",
+    "text": "Keep your phone charged and save battery",
+    "phase": "During",
+    "priority": "medium"
+  },
+  {
+    "id": "CK-016",
+    "text": "Tell your family contact that you are safe",
+    "phase": "During",
+    "priority": "medium"
+  },
+  {
+    "id": "CK-017",
+    "text": "Do not spread unverified reports",
+    "phase": "During",
+    "priority": "medium"
+  },
+  {
+    "id": "CK-018",
+    "text": "Help people who cannot move easily",
+    "phase": "During",
+    "priority": "low"
+  },
+  {
+    "id": "CK-019",
+    "text": "Wait for the official all-clear before going home",
+    "phase": "After",
+    "priority": "high"
+  },
+  {
+    "id": "CK-020",
+    "text": "Check yourself and your family for injuries",
+    "phase": "After",
+    "priority": "high"
+  },
+  {
+    "id": "CK-021",
+    "text": "Boil water until it is declared safe",
+    "phase": "After",
+    "priority": "high"
+  },
+  {
+    "id": "CK-022",
+    "text": "Report hazards to the emergency office",
+    "phase": "After",
+    "priority": "medium"
+  },
+  {
+    "id": "CK-023",
+    "text": "Restock your supplies",
+    "phase": "After",
+    "priority": "medium"
+  },
+  {
+    "id": "CK-024",
+    "text": "Photograph damage for your records",
+    "phase": "After",
+    "priority": "low"
+  },
+  {
+    "id": "CK-025",
+    "text": "Update your household plan",
+    "phase": "After",
+    "priority": "low"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "scenarioName": "Rivermoor multi-hazard scenario (FICTIONAL)",
+  "scenarioNow": "2026-11-08T08:00:00.000Z",
+  "zones": [
+    {
+      "id": "A",
+      "name": "Riverside"
+    },
+    {
+      "id": "B",
+      "name": "Old Market"
+    },
+    {
+      "id": "C",
+      "name": "Hillview"
+    },
+    {
+      "id": "D",
+      "name": "Northgate"
+    },
+    {
+      "id": "E",
+      "name": "Eastside"
+    },
+    {
+      "id": "F",
+      "name": "Lakeside"
+    }
+  ],
+  "notice": "All data is fictional. This is not a real emergency system.",
+  "counts": {
+    "alerts": 60,
+    "shelters": 20,
+    "supplies": 30,
+    "checklist": 25
+  }
+}
