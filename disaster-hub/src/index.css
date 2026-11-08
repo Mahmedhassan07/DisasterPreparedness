@@ -1,11 +1,27 @@
 :root {
   --bg: #ffffff;
+  --surface: #f4f6f8;
   --text: #1a1a1a;
-  --critical: #b00020;
-  --warning: #8a5a00;
+  --muted: #4a4f55;
+  --border: #c9ced4;
+  --focus: #0b57d0;
   --ok: #1b6e3c;
-  font-family: system-ui, sans-serif;
+
+  --critical: #b00020;
+  --critical-bg: #fdecef;
+  --warning: #8a4b00;
+  --warning-bg: #fff3e0;
+  --advisory: #0b4f8a;
+  --advisory-bg: #e8f1fb;
+  --info: #3d4852;
+  --info-bg: #eef0f2;
+
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -13,4 +29,129 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.5;
+}
+
+h1 {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  line-height: 1.25;
+  margin: 0.5rem 0;
+}
+
+/* ---------- Focus (keyboard users) ---------- */
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+main:focus {
+  outline: none;
+}
+
+/* ---------- Skip link ---------- */
+.skip-link {
+  position: absolute;
+  left: 0.5rem;
+  top: -4rem;
+  background: var(--text);
+  color: #fff;
+  padding: 0.75rem 1rem;
+  z-index: 10;
+}
+
+.skip-link:focus {
+  top: 0.5rem;
+}
+
+/* ---------- Banner, header, nav ---------- */
+.sim-banner {
+  background: #fff8c5;
+  color: #3b3200;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #d9c84a;
+}
+
+.site-header {
+  border-bottom: 2px solid var(--border);
+  padding: 0.75rem 1rem 0;
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 0 0 0.5rem;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.nav-link {
+  display: block;
+  min-height: 44px;
+  padding: 0.6rem 0.9rem;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+}
+
+.nav-link:hover {
+  background: var(--surface);
+}
+
+.nav-link[aria-current='page'] {
+  font-weight: 700;
+  border-bottom-color: var(--text);
+}
+
+/* ---------- Page container ---------- */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+/* ---------- Buttons and form controls ---------- */
+.button {
+  display: inline-block;
+  min-height: 44px;
+  padding: 0.65rem 1.1rem;
+  background: var(--text);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.field {
+  display: grid;
+  gap: 0.25rem;
+  margin-bottom: 1.25rem;
+  max-width: 22rem;
+}
+
+.field label {
+  font-weight: 600;
+}
+
+select {
+  min-height: 44px;
+  padding: 0.5rem;
+  font: inherit;
+  border: 2px solid var(--muted);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--text);
 }
